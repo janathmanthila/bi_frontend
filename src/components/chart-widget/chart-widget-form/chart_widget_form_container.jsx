@@ -14,7 +14,7 @@ const INIT_DATA = {
     name: '',
     type: null,
     subjects: [],
-    years: [2000,2010],
+    years: [2001,2010],
     grades: [1,12],
     semesters: [],
     students: [],

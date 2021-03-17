@@ -55,7 +55,10 @@ const Home = ({summeryData, chartData}) => {
             <hr/>
             <br/>
             {chartData.map(chart => (
-                <Chart series={chart.series} name={chart.name} yAxis={chart.yAxis} xAxis={chart.xAxis}/>
+                <div>
+                     <Chart series={chart.series} name={chart.name} yAxis={chart.yAxis} xAxis={chart.xAxis}/>
+                <br/>
+                </div>
             ))}
 
         </div>

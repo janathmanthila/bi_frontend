@@ -10,7 +10,7 @@ import {summeryWidgetProcess, summeryWidgetGetProcess, summeryWidgetResetProcess
 const WrappedComponent = WithSpinnerHOC(SummeryWidgetForm)
 const INIT_DATA = {
     id:null,
-    years: [2000,2010],
+    years: [2001,2010],
     grades: [1,12],
     subjects: [],
     semesters: [],
