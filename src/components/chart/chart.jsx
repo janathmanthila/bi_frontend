@@ -13,21 +13,6 @@ const Chart = ({name,series, yAxis, xAxis}) => {
     yAxis: yAxis,
 
     xAxis: xAxis,
-
-    // series: [{
-    //   name: 'sub',
-    //   type: 'column',
-    //   data: [1,4,7],
-    //   color:'grey',
-    //   lineWidth: 3
-    // },
-    //   {
-    //     name: 'average',
-    //     data: [1, 2, 3]
-    //   }
-    // ]
-
-
   }
 
   return (

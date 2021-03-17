@@ -1,6 +1,5 @@
 import React from "react";
 import {connect} from "react-redux";
-import uuid from 'react-uuid'
 
 import ChartWidgetForm from "./chart_widget_form";
 import WithSpinnerHOC from "../../base/with_spinner_hoc/with_spinner";

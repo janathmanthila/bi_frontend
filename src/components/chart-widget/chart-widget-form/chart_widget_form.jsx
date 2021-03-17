@@ -13,7 +13,6 @@ import InputLabel from '@material-ui/core/InputLabel';
 import uuid from "react-uuid";
 import Typography from "@material-ui/core/Typography";
 import Slider from "@material-ui/core/Slider";
-import Grid from "@material-ui/core/Grid";
 import axios from "axios";
 
 const ChartWidgetForm = ({onHide, show, chart, changeState, resetState, chartWidgetProcess, create, chartWidgetUpdateProcess}) => {

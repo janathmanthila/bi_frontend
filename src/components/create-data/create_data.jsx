@@ -9,8 +9,6 @@ import ConfirmBox from "../base/confirm-box/confirm_box";
 import {Alert, AlertTitle} from '@material-ui/lab'
 
 import createDataStyles from "./create_data.styles"
-import {Link} from "react-router-dom";
-import ROUTING from "../routes/routings";
 
 const CreateData = ({createDataProcess, successMessage, errorMessage}) => {
     const [showReWriteConfirm, setShowReWriteConfirm] = useState(false)
