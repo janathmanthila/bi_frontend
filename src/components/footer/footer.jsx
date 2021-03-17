@@ -1,5 +1,6 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 
 import footerStyles from "./footer.styles";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -11,9 +12,9 @@ const Footer = () => {
         <AppBar className={styleClasses.footerMainDiv}>
             <Toolbar>
                 <Grid container md={12} justify="space-between" spacing={5}>
-                    <Grid item md={4}>asdsad</Grid>
-                    <Grid item md={4}>dasda</Grid>
-                    <Grid item md={4}>dasda</Grid>
+                    <Grid item md={4}><Typography variant="h5">BI ANALYTICS</Typography></Grid>
+                    <Grid item md={4}><Typography variant="p">BI Analytics is an customizable analysis tool developed to provide an assistance in decision making processors. </Typography></Grid>
+                    <Grid item md={4}><Typography variant="p">2021 © BI Analytics, All Rights Reserved.</Typography></Grid>
                 </Grid>
             </Toolbar>
         </AppBar>
